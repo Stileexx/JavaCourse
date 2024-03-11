@@ -66,11 +66,11 @@ public class Main {
 
 //it will execute ATLEAST 1 time, first it reads the body - after this the check
 //
-        int n = 1;
-        do {
-            System.out.println("Hi im executing!");
-
-        } while (n != 1);
+//        int n = 1;
+//        do {
+//            System.out.println("Hi im executing!");
+//
+//        } while (n != 1);
 
     }
 }
