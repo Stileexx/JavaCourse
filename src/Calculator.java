@@ -22,7 +22,19 @@ public class Calculator {
                 if (operator == '*') {
                     result = number1 * number2;
                 }
+                if (operator == '/') {
+                    if (number2 != 0) {
+                        result = number1 / number2;
+                    }
+                }
+                if (operator == '%') {
+                    result = number1 % number2;
+                }
 
+            } else if (operator == 'x' ||operator == 'X') {
+                break;
+            } else {
+                System.out.println("Invalid operation!");
             }
         }
         System.out.println(result);
