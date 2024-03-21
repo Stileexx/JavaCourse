@@ -12,6 +12,7 @@ public class Calculator {
             System.out.println();
             if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%') {
 //                input two numers
+                int number1 = input.nextInt();
                 int number2 = input.nextInt();
 
                 if (operator == '+') {
