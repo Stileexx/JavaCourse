@@ -12,10 +12,7 @@ public class Calculator {
             System.out.println();
             if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%') {
 //                input two numers
-                System.out.println("Enter two numbers: ");
-                int number1 = input.nextInt();
                 int number2 = input.nextInt();
-                System.out.println();
 
                 if (operator == '+') {
                     result = number1 + number2;
@@ -40,7 +37,8 @@ public class Calculator {
             } else {
                 System.out.println("Invalid operation!");
             }
+            System.out.println(result);
         }
-        System.out.println(result);
+
     }
 }
