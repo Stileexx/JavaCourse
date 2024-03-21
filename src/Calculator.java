@@ -12,9 +12,10 @@ public class Calculator {
             System.out.println();
             if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%') {
 //                input two numers
+                System.out.println("Input two numbers: ");
                 int number1 = input.nextInt();
                 int number2 = input.nextInt();
-
+                System.out.println();
                 if (operator == '+') {
                     result = number1 + number2;
                 }
