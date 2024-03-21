@@ -7,11 +7,15 @@ public class Calculator {
         int result = 0;
         while (true) {
 //            take operator as input
+            System.out.println("Enter your operator: ");
             char operator = input.next().trim().charAt(0);
+            System.out.println();
             if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%') {
 //                input two numers
+                System.out.println("Enter two numbers: ");
                 int number1 = input.nextInt();
                 int number2 = input.nextInt();
+                System.out.println();
 
                 if (operator == '+') {
                     result = number1 + number2;
